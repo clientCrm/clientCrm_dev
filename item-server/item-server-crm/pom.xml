@@ -74,6 +74,14 @@
             <version>2.0.2.RELEASE</version>
         </dependency>
 
+        <!-- Lombok代替Getter/Setter方法 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!--  &lt;!&ndash;config配置中心导入&ndash;&gt;
           <dependency>
               <groupId>org.springframework.cloud</groupId>

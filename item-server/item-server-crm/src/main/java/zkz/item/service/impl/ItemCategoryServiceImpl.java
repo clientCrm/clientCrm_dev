@@ -2,6 +2,7 @@ package zkz.item.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 import zkz.item.mapper.itemCategoryMapper;
 import zkz.item.pojo.Category;
 import zkz.item.service.itemCategoryService;
@@ -19,7 +20,6 @@ public class ItemCategoryServiceImpl implements itemCategoryService {
      */
     @Override
     public List<Category> queryCategoriesByPid(Long pid) {
-
             Category record = new Category();
             record.setParentId(pid);
             return this.categoryMapper.select(record);
