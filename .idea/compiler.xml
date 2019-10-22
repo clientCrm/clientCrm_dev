@@ -6,20 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bangong-common-server" />
         <module name="bangong-item-server" />
         <module name="batchUpload-Server" />
-        <module name="eureka-Server" />
-        <module name="gateWay-Server" />
         <module name="item-common-server" />
-        <module name="item-server-crm" />
-        <module name="kehu-common-server" />
         <module name="kehu-item-server" />
+        <module name="item-server-crm" />
         <module name="manager-server" />
+        <module name="eureka-Server" />
+        <module name="kehu-common-server" />
+        <module name="bangong-common-server" />
+        <module name="gateWay-Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bangong-comment-server" target="1.8" />
       <module name="bangong-common-server" target="1.8" />
       <module name="bangong-item-server" target="1.8" />
       <module name="bangong-Server" target="1.8" />
@@ -35,5 +34,19 @@
       <module name="kehu-Server" target="1.8" />
       <module name="manager-server" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bangong-common-server" options="-parameters" />
+      <module name="bangong-item-server" options="-parameters" />
+      <module name="batchUpload-Server" options="-parameters" />
+      <module name="eureka-Server" options="-parameters" />
+      <module name="gateWay-Server" options="-parameters" />
+      <module name="item-common-server" options="-parameters" />
+      <module name="item-server-crm" options="-parameters" />
+      <module name="kehu-common-server" options="-parameters" />
+      <module name="kehu-item-server" options="-parameters" />
+      <module name="manager-server" options="-parameters" />
+    </option>
   </component>
 </project>

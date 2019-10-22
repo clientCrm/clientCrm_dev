@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zkz.kehu.mapper.CustomerMapper">
+
+    <!--查询所有客户（多表查询，拼接创建人和负责人） -->
+    <resultMap id="queryCustomerList" type="zkz.kehu.vo.CustomerVo">
+        <result property="customer_id" column="customer_id"></result>
+        <result property="customer_name" column="customer_name"></result>
+        <result property="mobile" column="mobile"></result>
+        <result property="telephone" column="telephone"></result>
+        <result property="detail_address" column="detail_address"></result>
+        <result property="industry" column="industry"></result>
+        <result property="source" column="source"></result>
+        <result property="cus_level" column="cus_level"></result>
+        <result property="remarks" column="remarks"></result>
+        <result property="create_time" column="create_time"></result>
+        <result property="update_time" column="update_time"></result>
+        <result property="charge_user_id" column="charge_user_id"></result>
+        <result property="create_user_id" column="create_user_id"></result>
+        <result property="follow_up" column="follow_up"></result>
+        <result property="next_time" column="next_time"></result>
+
+        <result property="charge_man" column="charge_man"></result>
+        <result property="create_man" column="create_man"></result>
+    </resultMap>
+
+    <select id="queryAllCustomers" resultMap="queryCustomerList">
+       SELECT
+			*
+		FROM
+			(
+			SELECT
+				crm_cus.*,
+				crm1.fullname AS create_man
+			FROM
+				( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+			LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
+			) cus_vo
+    </select>
+
+    <!--通过id查询我负责的所有客户-->
+    <select id="queryInChargeOfCustomers" resultMap="queryCustomerList">
+        FROM
+	(
+	SELECT
+		crm_cus.*,
+		crm1.fullname AS create_man
+	FROM
+		(
+		SELECT
+			cus.*,
+			crm.fullname AS charge_man
+		FROM
+			b_crm_customer cus
+			LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id
+		WHERE
+			cus.charge_user_id = #{param1}
+		) crm_cus
+	LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
+	) cus_vo
+    </select>
+
+    <!--通过登录员id查询我参与的所有客户-->
+    <select id="queryIParticipateCustomers" resultMap="queryCustomerList">
+        SELECT
+			*
+		FROM
+			(
+			SELECT
+				crm_cus.*,
+				crm1.fullname AS create_man
+			FROM
+				( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+				LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
+			WHERE
+				crm_cus.charge_user_id = 2
+			OR crm_cus.create_user_id = 2
+			) cus_vo
+    </select>
+
+    <!--模糊查询（输入客户名称或电话号码进行模糊查询）-->
+    <select id="queryCustomerByNameOrNumb" resultType="zkz.kehu.vo.CustomerVo">
+        SELECT
+			*
+		FROM
+			(
+			SELECT
+				crm_cus.*,
+				crm1.fullname AS create_man
+			FROM
+				( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+				LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
+			WHERE
+				crm_cus.customer_name LIKE '%${value}%'
+				OR crm_cus.mobile LIKE '%${value}%'
+			OR crm_cus.telephone LIKE '%${value}%'
+			) cus_vo
+    </select>
+
+    <!-- 新增客户 -->
+    <insert id="insertCustomer" parameterType="zkz.kehu.pojo.Customer">
+        insert into b_crm_customer (customer_name, mobile, telephone, detail_address, industry, source, cus_level, remarks, create_time, update_time, charge_user_id, create_user_id, follow_up, next_time)
+         values (#{customer_name}, #{mobile}, #{telephone},#{detail_address},#{industry},#{source},#{cus_level},#{remarks},#{create_time},#{update_time},#{charge_user_id},#{create_user_id},#{follow_up},#{next_time})
+    </insert>
+</mapper>

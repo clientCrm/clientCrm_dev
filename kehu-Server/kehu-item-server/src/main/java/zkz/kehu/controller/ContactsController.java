@@ -1,0 +1,35 @@
+package zkz.kehu.controller;
+
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import zkz.kehu.pojo.Contacts;
+import zkz.kehu.mapper.ContactsMapper;
+import zkz.kehu.service.ContactsService;
+import zkz.kehu.vo.ContactsVo;
+import zkz.kehu.vo.CustomerVo;
+
+
+@RestController
+@RequestMapping("/contacts")
+public class ContactsController {
+
+    @Autowired
+    private ContactsService contactsService;
+
+    @GetMapping("/contacts")
+    public PageInfo<ContactsVo> queryAllContacts(Integer pageNum, Integer pageSize){
+        PageInfo<ContactsVo> contactsPageInfo = contactsService.queryAllContacts(pageNum, pageSize);
+        return contactsPageInfo;
+    }
+
+    //模糊查询（输入客户名称、手机或电话号码进行模糊查询）
+    @GetMapping("/customer/vagueQuery/{nameOrNumb}")
+    public PageInfo<ContactsVo> queryCustomerByCase(@PathVariable("nameOrNumb") String nameOrNumb, Integer pageNum, Integer pageSize) {
+        PageInfo<ContactsVo> customerVoPageInfo = contactsService.queryContactsByNameOrNumb(nameOrNumb, pageNum, pageSize);
+        return customerVoPageInfo;
+    }
+}

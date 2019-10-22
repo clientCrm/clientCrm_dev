@@ -55,7 +55,7 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- 路有借口检测 -->
+        <!-- 路由接口检测 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
