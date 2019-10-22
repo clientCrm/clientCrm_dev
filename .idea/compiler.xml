@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bangong-comment-server" />
+        <module name="bangong-common-server" />
         <module name="bangong-item-server" />
         <module name="batchUpload-Server" />
         <module name="eureka-Server" />
@@ -20,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bangong-comment-server" target="1.8" />
+      <module name="bangong-common-server" target="1.8" />
       <module name="bangong-item-server" target="1.8" />
       <module name="bangong-Server" target="1.8" />
       <module name="batchUpload-Server" target="1.8" />

@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bangong-Server/bangong-Server.iml" filepath="$PROJECT_DIR$/bangong-Server/bangong-Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bangong-Server/bangong-comment-server/bangong-comment-server.iml" filepath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/bangong-comment-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/bangong-item-server.iml" filepath="$PROJECT_DIR$/bangong-Server/bangong-item-server/bangong-item-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bangong-Server/bangong-common-server/bangong-common-server.iml" filepath="$PROJECT_DIR$/bangong-Server/bangong-common-server/bangong-common-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/bangong-item-server.iml" filepath="$PROJECT_DIR$/bangong-Server/bangong--item-server/bangong-item-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/batchUpload-Server/batchUpload-Server.iml" filepath="$PROJECT_DIR$/batchUpload-Server/batchUpload-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/clientCrm.iml" filepath="$PROJECT_DIR$/clientCrm.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-Server/eureka-Server.iml" filepath="$PROJECT_DIR$/eureka-Server/eureka-Server.iml" />
