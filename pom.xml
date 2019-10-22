@@ -17,7 +17,6 @@
         <module>manager-server</module>
         <module>kehu-Server</module>
         <module>item-server</module>
-        <module>item-server</module>
     </modules>
 
     <!--父项目版本控制，所有的springboot同一版本管理-->

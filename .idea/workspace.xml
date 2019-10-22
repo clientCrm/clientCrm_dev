@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a53b6155-f422-4f7f-980e-3263a89b0842" name="Default Changelist" comment="" />
+    <list default="true" id="a53b6155-f422-4f7f-980e-3263a89b0842" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__zkz_example_bangong_server_bangong_comment_server_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/bangong-comment-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/bangong-common-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/bangongcommentserver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/src/main/java/zkz/bangong/common/api/bangong/BrandApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/api/bangong/BrandApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/src/main/java/zkz/bangong/common/api/bangong/CategoryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/api/bangong/CategoryApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/src/main/java/zkz/bangong/common/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/pojo/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/src/main/java/zkz/bangong/common/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/src/main/java/zkz/bangong/common/pojo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/pojo/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/target/classes/zkz/bangong/common/api/bangong/BrandApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/target/classes/zkz/bangong/common/api/bangong/CategoryApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/target/classes/zkz/bangong/common/pojo/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/target/classes/zkz/bangong/common/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-comment-server/target/classes/zkz/bangong/common/pojo/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/bangong-item-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/bangong-item-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/GenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/GenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/bangongApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/bangongApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/bangongApplication2.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/bangongApplication2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/AdoptAnimalStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/CustomBeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/CustomBeanUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskEndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskEndTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskMonAndDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskMonAndDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/mapper/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/crmTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/crmTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/utils/FormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/utils/FormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/utils/LocalDateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/utils/LocalDateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/bangongApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/bangongApplication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/controller/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/mapper/BrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/pojo/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/pojo/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/service/BrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/bangong-item-server/target/classes/zkz/bangong/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bangong-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bangong-Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/manager-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/manager-server/manager-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/client/bangong/CategoryClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/client/kehu/kehu_CategoryClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/client/uploadBatch/upload_CategoryClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/controller/ManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/controller/kehuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-server/target/classes/zkz/manager/managerServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/eureka-Server/target/" />
     <ignored path="$PROJECT_DIR$/batchUpload-Server/target/" />
     <ignored path="$PROJECT_DIR$/kehu-Server/kehu-common-server/target/" />
@@ -16,11 +94,27 @@
     <ignored path="$PROJECT_DIR$/item-server/item-common-server/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/item-server/item-server-crm/target/" />
+    <ignored path="$PROJECT_DIR$/bangong-Server/bangong-common-server/target/" />
+    <ignored path="$PROJECT_DIR$/bangong-Server/bangong--item-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1875897362">
@@ -55,86 +149,174 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1356686457">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="8877" />
+          <entry key="txt" value="9" />
+          <entry key="xml" value="372" />
+          <entry key="yml" value="95" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8877" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="XML" value="372" />
+          <entry key="YAML" value="95" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="fxml" value="1" />
+          <entry key="java" value="152" />
+          <entry key="xml" value="32" />
+          <entry key="yml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="152" />
+          <entry key="XML" value="33" />
+          <entry key="YAML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.delete.local" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/eureka-Server/target/classes/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-server/item-server-crm/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kehu-Server/kehu-item-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-Server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manager-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="225" column="5" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/bangongApplication.java">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/crmTaskService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateWay-Server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="5543">
+              <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/kehu/kehu_CategoryClient.java">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="230">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/uploadBatch/upload_CategoryClient.java">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/mapper/crmTaskMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="3013">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/bangong/CategoryClient.java">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmTaskMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="276">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/crmTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stoptime</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="zkz" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +325,47 @@
         <option value="$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/uploadBatch/upload_CategoryClient.java" />
         <option value="$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/bangong/CategoryClient.java" />
         <option value="$PROJECT_DIR$/manager-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateWay-Server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mapper/staffTask.fxml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mapper/staffTask.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/staffTask.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/test/Test.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/Result.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/utils/FormatUtil.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/utils/LocalDateTimeUtil.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/SystemConstant.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateWay-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskStatus.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskLevel.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskEndTime.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmTaskExample.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/crmTaskMonAndDay.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/common/CustomBeanUtil.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/GenMain.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmTask.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mbg.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/mapper/crmTaskMapper.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mapper/crmTaskMapper.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/crmTaskService.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong-common-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/GenMain.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mbg.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/crmTask.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/mapper/crmTaskMapper.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/crmTaskService.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmTaskMapper.xml" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java" />
+        <option value="$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java" />
       </list>
     </option>
   </component>
@@ -160,31 +383,315 @@
         <option name="userSettingsFile" value="G:\apche-maven\apache-maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="480" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="224" />
     <option name="width" value="1160" />
-    <option name="height" value="1080" />
+    <option name="height" value="790" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client_git" type="462c0819:PsiDirectoryNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="bangong--item-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="zkz" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clientCrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,16 +699,30 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/client_dev/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/BrandController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571211231245" />
-    <property name="last_opened_file_path" value="G:/clientCrm_admin" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571733363256" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zkz.bangong.utils" />
+      <recent name="zkz.bangong.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\client_dev\bangong-Server\bangong--item-server\src\main\resources" />
+      <recent name="G:\client_dev\bangong-Server\bangong--item-server\src\main\java" />
+      <recent name="G:\client_dev\bangong-Server\bangong-common-server\src\main\java" />
+      <recent name="G:\client_dev\bangong-Server\bangong-item-server\src\main\java\zkz\bangong" />
+      <recent name="G:\client_dev\bangong-Server\bangong-item-server\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -219,11 +740,76 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.33753943" />
   </component>
   <component name="RunManager" selected="Spring Boot.bangongApplication">
+    <configuration name="GenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zkz.bangong.GenMain" />
+      <module name="bangong-item-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zkz.bangong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenMain.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bangong-item-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zkz.bangong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zkz.bangong" />
+      <option name="MAIN_CLASS_NAME" value="zkz.bangong.GenMain" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenMain.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bangong-item-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zkz.bangong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zkz.bangong" />
+      <option name="MAIN_CLASS_NAME" value="zkz.bangong.GenMain" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bangong-item-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zkz.bangong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zkz.bangong.test" />
+      <option name="MAIN_CLASS_NAME" value="zkz.bangong.test.Test" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-Server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="zkz.example.eureka.EurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,6 +830,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="zkz.bangong.bangongApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,6 +847,9 @@
     <configuration name="gateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateWay-Server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="zkz.example.gateWayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,11 +875,19 @@
       <item itemvalue="Spring Boot.gateWayApplication" />
       <item itemvalue="Spring Boot.kehuApplication" />
       <item itemvalue="Spring Boot.ItemApplication" />
+      <item itemvalue="Application.GenMain" />
+      <item itemvalue="JUnit.GenMain.test" />
+      <item itemvalue="JUnit.GenMain.test2" />
       <item itemvalue="Spring Boot.bangongApplication" />
+      <item itemvalue="JUnit.Test.testFirstLevelCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.testFirstLevelCache" />
         <item itemvalue="Spring Boot.bangongApplication" />
+        <item itemvalue="JUnit.GenMain.test2" />
+        <item itemvalue="JUnit.GenMain.test" />
+        <item itemvalue="Application.GenMain" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +902,13 @@
       <option name="presentableId" value="Default" />
       <updated>1571185905160</updated>
       <workItem from="1571185906852" duration="3308000" />
+      <workItem from="1571283624367" duration="771000" />
+      <workItem from="1571295724336" duration="3325000" />
+      <workItem from="1571317579932" duration="3833000" />
+      <workItem from="1571616713591" duration="1780000" />
+      <workItem from="1571620375962" duration="35838000" />
+      <workItem from="1571670734894" duration="14831000" />
+      <workItem from="1571716902370" duration="9463000" />
     </task>
     <task id="LOCAL-00001" summary="后台1.0版本">
       <created>1571187198716</created>
@@ -310,51 +917,99 @@
       <option name="project" value="LOCAL" />
       <updated>1571187198716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="网关访问去掉前缀">
+      <created>1571283743008</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571283743008</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GenMain_test2 - 2019.10.22 at 09h 19m 02s.xml">
+      <configuration name="GenMain.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test2 - 2019.10.22 at 09h 21m 55s.xml">
+      <configuration name="GenMain.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test2 - 2019.10.22 at 09h 22m 46s.xml">
+      <configuration name="GenMain.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 09h 43m 32s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 10h 27m 43s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 10h 42m 39s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 10h 43m 17s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 12h 36m 10s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 12h 38m 22s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenMain_test - 2019.10.22 at 12h 39m 04s.xml">
+      <configuration name="GenMain.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3308000" />
+    <option name="totallyTimeSpent" value="73690000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1378" height="738" extended-state="6" />
+    <frame x="-9" y="-9" width="1378" height="738" extended-state="7" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2231595" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.27272728" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Messages" weight="0.32867134" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965035" visible="true" weight="0.226227" />
+      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.18481596" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58566433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47727272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.26573426" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5023006" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49769938" visible="true" weight="0.43706295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3297546" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297546" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,67 +1020,436 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="后台1.0版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台1.0版本" />
+    <MESSAGE value="网关访问去掉前缀" />
+    <option name="LAST_COMMIT_MESSAGE" value="网关访问去掉前缀" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/test/Test.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/GenMain.java</url>
+          <line>46</line>
+          <properties class="zkz.bangong.GenMain">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/item-server/item-server-crm/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmUserRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kehu-Server/kehu-item-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmUserRoleExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mapper/crmTaskLogMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateWay-Server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1840">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/JDK/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mapper/crmTaskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/mbg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/pojo/crmTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/GenMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1601#1609#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/kehu/kehu_CategoryClient.java">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/mapper/crmTaskMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="1449">
+          <caret line="133" column="18" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#countByExample#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#deleteByExample#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#deleteByPrimaryKey#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#insert#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#insertSelective#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#selectByExampleWithBLOBs#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#selectByExample#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#selectByPrimaryKey#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByExampleSelective#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByExampleWithBLOBs#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByExample#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByPrimaryKeySelective#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByPrimaryKeyWithBLOBs#0;class#crmTaskMapper#0" />
+            <element signature="docComment;method#updateByPrimaryKey#0;class#crmTaskMapper#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/uploadBatch/upload_CategoryClient.java">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="92">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/bangong/CategoryClient.java">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/service/crmTaskService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="460">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/bangongApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="197">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-item-server/src/main/java/zkz/bangong/bangongApplication2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/uploadBatch/upload_CategoryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="115">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-common-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/api/bangong/BrandApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong-common-server/src/main/java/zkz/bangong/common/api/bangong/CategoryApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/Brand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/bangongApplication2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/bangongApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmUserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmTaskLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/controller/kehuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/GenMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/crmTaskExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mbg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-server/src/main/java/zkz/manager/client/bangong/CategoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-Server/src/main/java/zkz/example/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/JDK/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-Server/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-Server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/crmTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/service/impl/crmTaskImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5543">
+          <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/common/crmTaskStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/mapper/crmTaskMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3013">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/resources/mapper/crmTaskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/layui/crmTaskLayui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/pojo/crmTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangong-Server/bangong--item-server/src/main/java/zkz/bangong/controller/stafffTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="225" column="5" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -449,6 +1473,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>manager-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -463,6 +1500,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

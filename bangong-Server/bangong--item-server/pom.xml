@@ -3,20 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>clientCrm</artifactId>
-        <groupId>zkz.example.ClientCrm</groupId>
+        <artifactId>bangong-Server</artifactId>
+        <groupId>zkz.example.bangong-server</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>zkz.example.bangong-server</groupId>
-    <artifactId>bangong-Server</artifactId>
-    <packaging>pom</packaging>
-    <modules>
+    <artifactId>bangong--item-server</artifactId>
 
-        <module>bangong-common-server</module>
-        <module>bangong--item-server</module>
-    </modules>
 
     <dependencies>
         <!-- web启动器 -->
@@ -77,12 +72,24 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
             <version>2.0.2.RELEASE</version>
         </dependency>
-
-      <!--  &lt;!&ndash;config配置中心导入&ndash;&gt;
+        <!-- MyBati Generator逆向工程（代码生成器） -->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-            <version>2.0.2.RELEASE</version>
-        </dependency>-->
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>1.3.5</version>
+        </dependency>
+        <!--导入热部署插件-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional> <!-- 防止将devtools依赖传递到其他模块中 -->
+        </dependency>
+
+        <!--  &lt;!&ndash;config配置中心导入&ndash;&gt;
+          <dependency>
+              <groupId>org.springframework.cloud</groupId>
+              <artifactId>spring-cloud-starter-config</artifactId>
+              <version>2.0.2.RELEASE</version>
+          </dependency>-->
     </dependencies>
 </project>
