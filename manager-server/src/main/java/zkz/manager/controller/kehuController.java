@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import zkz.kehu.common.pojo.kehuCategory;
+
 import zkz.manager.client.kehu.kehu_CategoryClient;
 
 import java.util.List;
 
 
+@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @Controller
 @RequestMapping("kehu")
 public class kehuController {
@@ -20,13 +22,18 @@ public class kehuController {
         @Autowired
         private kehu_CategoryClient kehu_categoryClient;
 
+
+        /**=============================== CustomerController Start ====================================*/
+
+
+        /**-------------------------------  CustomerController End  ------------------------------------*/
+
         /**
          * create by: zkz
          * description: 测试返回值为多个参数
          * create time: 15:15 2019/10/13
          * param :
          */
-
         @ResponseBody
         @GetMapping("getCategorys")
         // @HystrixCommand(fallbackMethod = "queryFallBack")  /*自定义处理机制*/
@@ -134,8 +141,5 @@ public class kehuController {
         }
         return "你好";
     }*/
-
-
-
 
     }

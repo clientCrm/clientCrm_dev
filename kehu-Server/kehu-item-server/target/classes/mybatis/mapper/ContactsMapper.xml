@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zkz.kehu.mapper.ContactsMapper">
+    <select id="queryAllContacts" resultType="zkz.kehu.vo.ContactsVo">
+        SELECT
+	        cus.customer_name,
+	        con.*
+        FROM
+	        b_crm_contacts con
+	        LEFT JOIN b_crm_customer cus ON cus.customer_id = con.customer_id
+    </select>
+
+    <!--模糊查询（输入客户名称或电话号码进行模糊查询）-->
+    <select id="queryCustomerByNameOrNumb" resultType="zkz.kehu.vo.CustomerVo">
+        SELECT
+			*
+		FROM
+			(
+			SELECT
+				crm_cus.*,
+				crm1.fullname AS create_man
+			FROM
+				( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+				LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
+			WHERE
+				crm_cus.customer_name LIKE '%${value}%'
+				OR crm_cus.mobile LIKE '%${value}%'
+			OR crm_cus.telephone LIKE '%${value}%'
+			) cus_vo
+    </select>
+</mapper>

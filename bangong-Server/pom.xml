@@ -13,8 +13,9 @@
     <artifactId>bangong-Server</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>bangong-comment-server</module>
-        <module>bangong-item-server</module>
+
+        <module>bangong-common-server</module>
+        <module>bangong--item-server</module>
     </modules>
 
     <dependencies>
