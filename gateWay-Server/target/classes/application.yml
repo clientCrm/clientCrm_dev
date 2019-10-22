@@ -32,7 +32,7 @@ zuul:
     kehu-server: /kehu/**      #/**zuul.routes.kehu-server`：给服务提供者 kehu-server 设置映射
     item-server: /item/**  #/**zuul.routes.xiangmu-server`：给服务提供者 xiangmu-server 设置映射
     manager-server: /manager/**  #/**zuul.routes.manager-server`：给服务提供者 manager-server 设置映射
-  prefix: /crm
+  #prefix: /crm
   #ignored-services: batchUpload-server   #  忽略图片上传的服务，减少网络压力
 
 #   service-provider: # 这里是路由id，随意写
