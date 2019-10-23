@@ -67,9 +67,9 @@ public class CustomerController {
 
     //新建客户点击保存
     @PostMapping("/customer")
-    public int insertCustomer(@RequestBody Customer customer){
-        System.out.println(customer);
-        System.out.println("下次联系时间："+customer.getNext_time());
+    public String insertCustomer(@RequestBody Customer customer){
+        /*System.out.println(customer);
+        System.out.println("下次联系时间："+customer.getNext_time());*/
         customer.setCreate_time(new Date());
         int result = customerService.insertCustomer(customer);
 

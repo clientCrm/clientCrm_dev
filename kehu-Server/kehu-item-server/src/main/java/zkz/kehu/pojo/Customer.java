@@ -28,5 +28,5 @@ public class Customer implements Serializable {
     private int follow_up;//跟进状态，0未跟进，1已跟进
     private Date next_time;//下次联系时间
 
-    //private CRMUser crmUser;
+    //private CrmUser crmUser;
 }
