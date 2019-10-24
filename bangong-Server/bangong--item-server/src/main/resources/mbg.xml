@@ -49,15 +49,15 @@
       <!--<table tableName="crm_task_log" domainObjectName="crmTaskLog"></table>-->
       <!--<table tableName="crm_user" domainObjectName="crmUser"></table>-->
       <!--<table tableName="crm_user_role" domainObjectName="crmUserRole"></table>-->
-    <!--<table tableName="crm_oa_announcement" domainObjectName="crmLayuiAnnoun"></table>-->
+    <table tableName="crm_oa_announcement" domainObjectName="crmLayuiAnnoun"></table>
 
-      <!--<table tableName="crm_chailv_examine" domainObjectName="chaiLvExamine"></table>-->
-      <!--<table tableName="crm_examine_category" domainObjectName="examineCategory"></table>-->
-      <!--<table tableName="crm_examine_log" domainObjectName="examineLog"></table>-->
-      <!--<table tableName="crm_examine_record" domainObjectName="examineRecord"></table>-->
-      <!--<table tableName="crm_jiaban_examine" domainObjectName="jiaBanExamine"></table>-->
-      <!--<table tableName="crm_putong_examine" domainObjectName="puTongExamine"></table>-->
-      <table tableName="crm_user" domainObjectName="crmUser"></table>
-      <!--<table tableName="crm_qingjia_examine" domainObjectName="qingJiaExamine"></table>-->
+      <table tableName="crm_chailv_examine" domainObjectName="chaiLvExamine"></table>
+      <table tableName="crm_examine_category" domainObjectName="examineCategory"></table>
+      <table tableName="crm_examine_log" domainObjectName="examineLog"></table>
+      <table tableName="crm_examine_record" domainObjectName="examineRecord"></table>
+      <table tableName="crm_jiaban_examine" domainObjectName="jiaBanExamine"></table>
+      <table tableName="crm_putong_examine" domainObjectName="puTongExamine"></table>
+      <table tableName="crm_oa_announcement" domainObjectName="crmAnnoun"></table>
+      <table tableName="crm_qingjia_examine" domainObjectName="qingJiaExamine"></table>
   </context>
 </generatorConfiguration>
