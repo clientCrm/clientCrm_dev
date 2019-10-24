@@ -19,12 +19,19 @@ public class staffAnnounImpl implements staffAnnounService {
 /*根据公告状态查找公告列表*/
     @Override
     public PageResult<crmAnnoun> getAnnounByStatus(String value, Integer crmUserId, Integer page, Integer rows) {
-            //先判断该用户有权限查看的公告
-       List<crmAnnoun> crmAnnounList= crmAnnounMapper.selectMyAnnoun(crmUserId);
-        System.out.println(crmAnnounList.size());
-        Date current = new Date();
+        List<crmAnnoun> crmAnnounList=null;
+        //执行查看公示中的查询
+        if("公示中".equals(value)){
+            PageHelper.startPage(page,rows);
+            crmAnnounList= crmAnnounMapper.selectMyAnnoun(crmUserId);
+        }
+        else if("已结束".equals(value)){
+            PageHelper.startPage(page,rows);
+            crmAnnounList=crmAnnounMapper.selectMyEndAnnoun(crmUserId);
+        }
+
             //在根据公告状态过滤
-        for (int i=0;i<crmAnnounList.size();i++) {
+        /*for (int i=0;i<crmAnnounList.size();i++) {
             crmAnnoun crmAnnoun = crmAnnounList.get(i);
             Date startTime = crmAnnoun.getStartTime();//开始时间
             Date endTime = crmAnnoun.getEndTime();//结束时间
@@ -43,13 +50,13 @@ public class staffAnnounImpl implements staffAnnounService {
                 }
             }
 
-        }
-            PageHelper.startPage(page,rows);
+        }*/
 
+        System.out.println(crmAnnounList.size());
             // 包装成pageInfo
             PageInfo<crmAnnoun> pageInfo = new PageInfo<>(crmAnnounList);
             // 包装成分页结果集返回
-            return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+            return new PageResult<>(pageInfo.getTotal(),pageInfo.getPages(),pageInfo.getList(),page,rows);
 
 
 

@@ -46,8 +46,7 @@ public class crmTaskImpl implements crmTaskService{
        int pid= crmTaskMapper.selectParentIdByUserId(crmTaskLayui.getCreateUserId());
         crmTask.setPid(pid);
         //根据负责人的名字获取负责人的Id
-        crmUser crmUser=crmTaskMapper.selectIdByName(crmTaskLayui.getMainUserId());
-        crmTask.setMainUserId(crmUser.getUserId());
+        crmTask.setMainUserId( crmTaskMapper.selectIdByName(crmTaskLayui.getMainUserId()));
 
         //执行插入
         crmTaskMapper.insert(crmTask);
@@ -217,7 +216,6 @@ public class crmTaskImpl implements crmTaskService{
         }
 
         //*根据员工姓名查找Id*//*
-        crmUser crmUser=crmTaskMapper.selectIdByName(value);
         crmTaskExample crmTaskExample = new crmTaskExample();
         zkz.bangong.pojo.crmTaskExample.Criteria criteria = crmTaskExample.createCriteria();
         criteria.andCreateUserIdEqualTo(UserId).andTaskNameLike("%" + value + "%");

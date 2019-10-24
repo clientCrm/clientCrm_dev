@@ -1,5 +1,6 @@
 package zkz.bangong.service;
 
+import org.springframework.stereotype.Service;
 import zkz.bangong.pojo.PageResult;
 import zkz.bangong.pojo.crmAnnoun;
 
