@@ -49,7 +49,7 @@
       <!--<table tableName="crm_task_log" domainObjectName="crmTaskLog"></table>-->
       <!--<table tableName="crm_user" domainObjectName="crmUser"></table>-->
       <!--<table tableName="crm_user_role" domainObjectName="crmUserRole"></table>-->
-    <!--<table tableName="crm_oa_announcement" domainObjectName="crmAnnoun"></table>-->
+    <!--<table tableName="crm_oa_announcement" domainObjectName="crmLayuiAnnoun"></table>-->
 
       <!--<table tableName="crm_chailv_examine" domainObjectName="chaiLvExamine"></table>-->
       <!--<table tableName="crm_examine_category" domainObjectName="examineCategory"></table>-->
