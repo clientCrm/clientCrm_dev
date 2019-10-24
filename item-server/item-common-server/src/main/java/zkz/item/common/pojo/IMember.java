@@ -18,12 +18,12 @@ public class IMember {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
 
-    private Integer itemId;
+    private Integer itemId;      //项目 ID
 
-    private Integer userId;
+    private Integer userId;     //成员用户 ID
 
-    private Integer taskId;
+    private Integer taskId;     //成员参与任务 ID
 
-    private Integer type;
+    private Integer memberType; //成员类型，1、负责人  0、参与者
 
 }

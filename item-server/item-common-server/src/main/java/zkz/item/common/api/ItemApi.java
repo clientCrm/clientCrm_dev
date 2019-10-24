@@ -11,7 +11,6 @@ import java.util.List;
  * PUT:    update
  * DELETE: delete
  * */
-//@RequestMapping("item")
 public interface ItemApi {
 
     @GetMapping("item/{id}")

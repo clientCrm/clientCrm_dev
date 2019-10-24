@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /*
 * 项目成员表
@@ -13,7 +14,7 @@ import javax.persistence.Table;
 * */
 @Table(name = "i_member")
 @Data
-public class IMember {
+public class IMember implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
@@ -24,17 +25,5 @@ public class IMember {
 
     private Integer taskId;
 
-    private Integer type;
-
-
-    @Override
-    public String toString() {
-        return "IMember{" +
-                "id=" + id +
-                ", itemId=" + itemId +
-                ", userId=" + userId +
-                ", taskId=" + taskId +
-                ", type=" + type +
-                '}';
-    }
+    private Integer memberType;
 }

@@ -5,7 +5,8 @@ import java.util.List;
 public class PageResult<T> {
     private Long total;// 总条数
     private Integer totalPage;// 总页数
-    private List<T> items;// 当前页数据
+    private List<T> items;// 当前页数据,项目
+    private List<Label> labels;// 当前页数据,标签
 
     public PageResult() {
     }
@@ -45,5 +46,12 @@ public class PageResult<T> {
         this.items = items;
     }
 
+    public List<Label> getLabels() {
+        return labels;
+    }
+
+    public void setLabels(List<Label> labels) {
+        this.labels = labels;
+    }
 
 }

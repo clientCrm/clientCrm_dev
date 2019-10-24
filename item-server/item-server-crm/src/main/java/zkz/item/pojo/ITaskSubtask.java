@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 /*
@@ -14,7 +15,7 @@ import java.util.Date;
 * */
 @Table(name = "i_task_subtask")
 @Data
-public class ITaskSubtask {
+public class ITaskSubtask implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;

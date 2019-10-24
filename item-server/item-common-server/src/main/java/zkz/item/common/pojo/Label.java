@@ -11,9 +11,9 @@ import javax.persistence.Table;
 * 标签表
 * @Data  代替Getter/Setter方法
 * */
-@Table(name = "lable")
+@Table(name = "label")
 @Data
-public class Lable {
+public class Label {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer lableId;

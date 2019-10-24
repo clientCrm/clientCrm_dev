@@ -5,7 +5,7 @@ spring:
   application:
     name: item-server
   datasource:
-    url: jdbc:mysql://localhost:3306/crm_db
+    url: jdbc:mysql://localhost:3306/crm_db?useUnicode=true&characterEncoding=utf8
     username: root
     password: mysql3036889657
     hikari:
@@ -23,8 +23,11 @@ eureka:
 ###########################thymeleaf配置######################
 
 #######################mabatic配置###########################
-#开启驼峰注解
-
 mybatis:
+  #mybatis.mapper-locations=模块名称/classpath:包名/*.xml
+  mapper-locations:  classpath:mapper/*.xml
+  #mybatis.type-aliases-package=包名
+  type-aliases-package: zkz.item.pojo
+  #开启驼峰注解
   configuration:
     map-underscore-to-camel-case: true

@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /*
 * 项目讨论表
@@ -13,7 +14,7 @@ import javax.persistence.Table;
 * */
 @Table(name = "i_discuss")
 @Data
-public class IDiscuss {
+public class IDiscuss implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
