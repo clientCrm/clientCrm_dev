@@ -2,10 +2,8 @@ package zkz.item.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import zkz.item.mapper.ItemMapper;
 import zkz.item.pojo.Item;
 import zkz.item.pojo.PageResult;
-import zkz.item.pojo.Test;
 import zkz.item.service.ItemService;
 import zkz.item.util.Base;
 import zkz.item.vo.ItemVo;
@@ -35,7 +33,6 @@ public class ItemController {
      * */
     @GetMapping("item/getPageByExit")
     public PageResult getPageByExit(@RequestParam Integer sort,@RequestParam Integer type,@RequestParam Integer thisPage,@RequestParam Integer limit) {
-        System.out.println("kkk");
         return itemService.getPageByExit(sort,type,thisPage,limit);
     }
 
@@ -58,7 +55,6 @@ public class ItemController {
     public List<Object> getByIng(@RequestParam Integer itemFinish1,@RequestParam Integer itemFinish2,@RequestParam Integer sort) {
         return itemService.getByIng(itemFinish1,itemFinish2,sort);
     }
-
 
     @PostMapping("item")
     public Base addItem(@RequestBody ItemVo itemVo) {
