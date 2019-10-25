@@ -9,18 +9,18 @@ import zkz.bangong.service.examineService;
 @RestController
 @RequestMapping("examine")
 public class examienController {
-//    @Autowired
-//    private zkz.bangong.service.examineService examineService;
-//
-//    @GetMapping("addExamine")
-//    public ResponseEntity<Void> addExamine (@RequestBody examineAllLayui examineAllLayui){
-//        if(examineAllLayui==null){
-//            return ResponseEntity.badRequest().build();
-//        }
-//        examineService.addExamine(examineAllLayui);
-//        return ResponseEntity.ok().build();
-//    }
-//
+    @Autowired
+    private zkz.bangong.service.examineService examineService;
+
+    @GetMapping("addExamine")
+    public ResponseEntity<Void> addExamine (@RequestBody examineAllLayui examineAllLayui){
+        if(examineAllLayui==null){
+            return ResponseEntity.badRequest().build();
+        }
+        examineService.addExamine(examineAllLayui);
+        return ResponseEntity.ok().build();
+    }
+
 
 
 

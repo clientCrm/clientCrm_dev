@@ -126,8 +126,7 @@ public class crmTaskImpl implements crmTaskService{
         crmTaskExample crmTaskExample = new crmTaskExample();
         zkz.bangong.pojo.crmTaskExample.Criteria criteria = crmTaskExample.createCriteria();
         List<crmTask> crmTasks = new ArrayList<>();
-        // 添加分页条件
-        PageHelper.startPage(page, rows);
+
 
 
         if ("全部".equals(value)) {
@@ -141,7 +140,7 @@ public class crmTaskImpl implements crmTaskService{
         // 包装成pageInfo
         PageInfo<crmTask> pageInfo = new PageInfo<>(crmTasks);
         // 包装成分页结果集返回
-        return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+        return new PageResult<>(pageInfo.getTotal(), pageInfo.getPages(),pageInfo.getList());
 
     }
 

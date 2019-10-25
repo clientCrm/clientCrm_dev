@@ -3,12 +3,11 @@ package zkz.manager.client.bangong;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
-import zkz.bangong.common.api.bangong.CategoryApi;
 
 @Service
 @FeignClient(value = "bangong-server")    //声明该接口是一个伪装feign接口,声明调用的微服务名
 @RequestMapping("bangong")
-public interface CategoryClient extends CategoryApi {
+public interface CategoryClient {
    /* *
      * create by: zkz
      * description: 声明调用服务的具体请求接口
