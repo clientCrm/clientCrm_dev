@@ -13,8 +13,8 @@ public class LoginServiceImpl implements LoginService {
     private CrmUserMapper crmUserMapper;
 
     @Override
-    public CrmUser checkLogin(String account, String password) {
-        CrmUser crmUser = crmUserMapper.checkLogin(account, password);
+    public CrmUser checkLogin(String username, String password) {
+        CrmUser crmUser = crmUserMapper.checkLogin(username, password);
         return crmUser;
     }
 }

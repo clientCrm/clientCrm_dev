@@ -3,6 +3,7 @@ package zkz.kehu.mapper;
 import org.apache.ibatis.annotations.Mapper;
 import zkz.kehu.pojo.Contacts;
 import zkz.kehu.vo.ContactsVo;
+import zkz.kehu.vo.CustomerBindVo;
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ public interface ContactsMapper{
     List<ContactsVo> queryContactsByNameOrNumb(String nameOrNumb);
 
     int addContact(Contacts contacts);
+
+    List<CustomerBindVo> bindCustomerList();
 }

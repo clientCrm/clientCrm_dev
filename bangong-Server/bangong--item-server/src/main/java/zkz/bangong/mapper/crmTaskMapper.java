@@ -133,7 +133,7 @@ public interface crmTaskMapper {
 
     /*根据员工姓名查找ID*/
     @Select("select user_id from crm_user where username=#{value}")
-    crmUser selectIdByName(String value);
+    Integer selectIdByName(String value);
     @Select("select * from crm_task where create_user_id=#{crmUserId}")
     List<crmTask> selectAll(Integer crmUserId);
 

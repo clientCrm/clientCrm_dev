@@ -4,7 +4,7 @@ spring:
   application:
     name: item-server
   datasource:
-    url: jdbc:mysql://localhost:3306/crm_db
+    url: jdbc:mysql://localhost:3306/crm_db?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123456
     hikari:
@@ -21,3 +21,7 @@ eureka:
 ###########################thymeleaf配置######################
 
 #######################mabatic配置###########################
+#开启驼峰注解映射
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

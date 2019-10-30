@@ -2,6 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="zkz.kehu.mapper.CrmUserMapper">
     <select id="checkLogin" resultType="zkz.kehu.pojo.CrmUser">
-        select * from crm_user where crm_user.account = #{param1} and crm_user.password = #{param2}
+        select * from crm_user where crm_user.username = #{param1} and crm_user.password = #{param2}
     </select>
 </mapper>

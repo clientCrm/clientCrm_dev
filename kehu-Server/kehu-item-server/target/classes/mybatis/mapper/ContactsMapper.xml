@@ -21,9 +21,9 @@ FROM
 		(
 		SELECT
 			crm_cus.*,
-			crm1.fullname AS create_man
+			crm1.realname AS create_man
 		FROM
-			( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+			( SELECT cus.*, crm.realname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
 			LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
 		) cus_vo
 	) ooo ON bcc.customer_id = ooo.customer_id) last
@@ -52,9 +52,9 @@ FROM
 			(
 			SELECT
 				crm_cus.*,
-				crm1.fullname AS create_man
+				crm1.realname AS create_man
 			FROM
-				( SELECT cus.*, crm.fullname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
+				( SELECT cus.*, crm.realname AS charge_man FROM b_crm_customer cus LEFT JOIN crm_user crm ON cus.charge_user_id = crm.user_id ) crm_cus
 				LEFT JOIN crm_user crm1 ON crm_cus.create_user_id = crm1.user_id
 			) cus_vo
 		) ooo ON bcc.customer_id = ooo.customer_id
@@ -63,6 +63,10 @@ WHERE
 	last.NAME LIKE '%${value}%'
 	OR last.mobile LIKE '%${value}%'
 	OR last.telephone LIKE '%${value}%'
+    </select>
+
+    <select id="bindCustomerList" resultType="zkz.kehu.vo.CustomerBindVo">
+        select customer_id, customer_name, create_time, update_time, next_time from b_crm_customer
     </select>
 
     <insert id="addContact" parameterType="zkz.kehu.pojo.Contacts">

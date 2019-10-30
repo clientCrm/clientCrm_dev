@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zkz.kehu.mapper.BusinessMapper">
+
+    <!--查询所有联系人显示到表格中-->
+    <select id="queryBusiness" resultType="zkz.kehu.vo.BusinessVo">
+select * from (SELECT
+    bcc.business_id,
+	bcc.business_name,
+	bcc.customer_name,
+	bcc.is_end,
+	bcc.business_money,
+	bcc.business_remark,
+	bcc.b_create_time,
+	bcc.b_update_time,
+	bcc.create_man,
+	crm_user.realname AS charge_man
+FROM
+	(
+	SELECT
+		bc.*,
+		cu.realname AS create_man
+	FROM
+		( SELECT bcb.*, cus.customer_name FROM b_crm_business bcb LEFT JOIN b_crm_customer cus ON bcb.customer_id = cus.customer_id ) bc
+		LEFT JOIN crm_user cu ON bc.create_user_id = cu.user_id
+	) bcc
+	LEFT JOIN crm_user ON bcc.charge_user_id = crm_user.user_id) last
+    </select>
+
+</mapper>

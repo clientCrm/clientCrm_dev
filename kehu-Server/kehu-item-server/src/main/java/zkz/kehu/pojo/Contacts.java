@@ -21,8 +21,9 @@ public class Contacts implements Serializable {
     private String address;//地址
     private String post;//职位
     private String policy_decision;//是否是决策人
-    private String remarks;//备注
+    private String contacts_remarks;//备注
     private Date create_time;//创建时间
     private Date update_time;//最后修改时间
+    private Date contacts_next_time;//下次联系时间
     private Integer customer_id;//所在公司id
 }

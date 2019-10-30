@@ -6,6 +6,32 @@ public class PageResult<T> {
     private Long total;// 总条数
     private Integer totalPage;// 总页数
     private List<T> items;// 当前页数据
+private Integer page;//当前页码
+    private Integer rows;//每页显示数
+
+    public PageResult(Long total, Integer totalPage, List<T> items, Integer page, Integer rows) {
+        this.total = total;
+        this.totalPage = totalPage;
+        this.items = items;
+        this.page = page;
+        this.rows = rows;
+    }
+
+    public Integer getPage() {
+        return page;
+    }
+
+    public void setPage(Integer page) {
+        this.page = page;
+    }
+
+    public Integer getRows() {
+        return rows;
+    }
+
+    public void setRows(Integer rows) {
+        this.rows = rows;
+    }
 
     public PageResult() {
     }

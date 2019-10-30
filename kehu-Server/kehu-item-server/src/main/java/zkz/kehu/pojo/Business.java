@@ -19,9 +19,9 @@ public class Business implements Serializable {
     private Date deal_date;//预计成交日期
     @NonNull private Integer customer_id;//客户id
     @NonNull private Integer create_user_id;//创建人id
-    private Integer owner_user_id;//负责人id
-    @NonNull private Date create_time;//创建时间
-    private Date update_time;//最后修改时间
+    private Integer charge_user_id;//负责人id
+    @NonNull private Date b_create_time;//创建时间
+    private Date b_update_time;//最后修改时间
     private Integer is_end;//商机阶段，1赢单2输单3无效
     private String business_remark; //商机备注
 }

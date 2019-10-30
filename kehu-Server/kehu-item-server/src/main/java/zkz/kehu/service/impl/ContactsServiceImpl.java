@@ -8,6 +8,7 @@ import zkz.kehu.mapper.ContactsMapper;
 import zkz.kehu.pojo.Contacts;
 import zkz.kehu.service.ContactsService;
 import zkz.kehu.vo.ContactsVo;
+import zkz.kehu.vo.CustomerBindVo;
 
 import java.util.List;
 
@@ -21,9 +22,6 @@ public class ContactsServiceImpl implements ContactsService {
     public PageInfo<ContactsVo> queryAllContacts(Integer pageNum, Integer pageSize) {
         PageHelper.startPage(pageNum, pageSize);
         List<ContactsVo> contacts = contactsMapper.queryAllContacts();
-        for (ContactsVo list: contacts){
-            System.out.println(list);
-        }
         PageInfo<ContactsVo> customerVoPageInfo = new PageInfo<>(contacts);
         return customerVoPageInfo;
     }
@@ -42,6 +40,14 @@ public class ContactsServiceImpl implements ContactsService {
     public int addContacts(Contacts contacts) {
         int result = contactsMapper.addContact(contacts);
         return result;
+    }
+
+    @Override
+    public PageInfo<CustomerBindVo> bindCustomerList(Integer pageNum, Integer pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        List<CustomerBindVo> customer = contactsMapper.bindCustomerList();
+        PageInfo<CustomerBindVo> customerVoPageInfo = new PageInfo<>(customer);
+        return customerVoPageInfo;
     }
 
 

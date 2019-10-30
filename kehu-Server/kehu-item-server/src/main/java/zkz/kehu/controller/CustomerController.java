@@ -21,7 +21,6 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("customerController")
 public class CustomerController {
 
     @Autowired
@@ -35,8 +34,8 @@ public class CustomerController {
     }
 
     //模糊查询（输入客户名称、手机或电话号码进行模糊查询）
-    @GetMapping("/customer/vagueQuery/{nameOrNumb}")
-    public PageInfo<CustomerVo> queryCustomerByCase(@PathVariable("nameOrNumb") String nameOrNumb, Integer pageNum, Integer pageSize) {
+    @GetMapping("/customer/vagueQuery")
+    public PageInfo<CustomerVo> queryCustomerByCase(@RequestParam("nameOrNumb") String nameOrNumb, Integer pageNum, Integer pageSize) {
         System.out.println(nameOrNumb);
         PageInfo<CustomerVo> customerVoPageInfo = customerService.queryCustomerByNameOrNumb(nameOrNumb, pageNum, pageSize);
         return customerVoPageInfo;
@@ -72,6 +71,7 @@ public class CustomerController {
         System.out.println("下次联系时间："+customer.getNext_time());*/
         customer.setCreate_time(new Date());
         int result = customerService.insertCustomer(customer);
+        System.out.println(result);
 
         if (result > 0) {
             return ConstantTip.SUCCESS_CODE_RETURN;

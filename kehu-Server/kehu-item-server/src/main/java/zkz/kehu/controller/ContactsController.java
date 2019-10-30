@@ -8,11 +8,13 @@ import zkz.kehu.pojo.Contacts;
 import zkz.kehu.mapper.ContactsMapper;
 import zkz.kehu.service.ContactsService;
 import zkz.kehu.vo.ContactsVo;
+import zkz.kehu.vo.CustomerBindVo;
 import zkz.kehu.vo.CustomerVo;
+
+import java.util.Date;
 
 
 @RestController
-@RequestMapping("/contacts")
 public class ContactsController {
 
     @Autowired
@@ -27,6 +29,7 @@ public class ContactsController {
     //输入联系人信息并点击添加
     @PostMapping("/contacts")
     public String addContact(@RequestBody Contacts contacts){
+        contacts.setCreate_time(new Date());
          int result = contactsService.addContacts(contacts);
          if (result > 0){
              return ConstantTip.SUCCESS_CODE_RETURN;
@@ -41,5 +44,11 @@ public class ContactsController {
         return customerVoPageInfo;
     }
 
-    //
+    //查出客户 id、客户名、创建时间、更新时间、下次联系时间显示到添加联系人的绑定客户列表
+    @GetMapping("/contacts/cusBind")
+    public PageInfo<CustomerBindVo> bindCustomerList(Integer pageNum, Integer pageSize){
+        System.out.println(pageNum+":"+pageSize);
+        PageInfo<CustomerBindVo> customerBindVoPageInfo = contactsService.bindCustomerList(pageNum, pageSize);
+        return customerBindVoPageInfo;
+    }
 }
