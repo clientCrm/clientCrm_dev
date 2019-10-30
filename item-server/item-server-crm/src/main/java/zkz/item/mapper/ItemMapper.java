@@ -3,6 +3,7 @@ package zkz.item.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import tk.mybatis.mapper.common.Mapper;
 import zkz.item.pojo.Item;
 
@@ -40,4 +41,6 @@ public interface ItemMapper extends Mapper<Item> {
     @Select("select * from item where sort=#{sort} limit #{thisPage} ,#{limit}")
     List<Item> getPageBySort(@Param("sort") Integer sort,@Param("thisPage") Integer thisPage,@Param("limit") Integer limit);
 
+    @Update("UPDATE item SET sort=#{sort} where item_id=#{itemId}")
+    int updateBySort(@Param("itemId")Integer itemId,@Param("sort")Integer sort);
 }

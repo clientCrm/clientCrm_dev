@@ -17,7 +17,7 @@ import java.io.Serializable;
 public class IMember implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Integer id;
+    private Integer itemMemberId;
 
     private Integer itemId;
 
@@ -26,4 +26,5 @@ public class IMember implements Serializable {
     private Integer taskId;
 
     private Integer memberType;
+
 }
