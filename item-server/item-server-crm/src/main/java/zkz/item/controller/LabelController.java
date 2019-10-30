@@ -1,14 +1,11 @@
 package zkz.item.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import zkz.item.pojo.Label;
 import zkz.item.pojo.PageResult;
-import zkz.item.pojo.Test;
 import zkz.item.service.LabelService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

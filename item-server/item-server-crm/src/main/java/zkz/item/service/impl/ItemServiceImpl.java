@@ -49,9 +49,13 @@ public class ItemServiceImpl implements ItemService {
         return lists;
     }
 
+    /*
+    * 项目列表的分页展示
+    * */
     @Override
     public PageResult getPageByExit(Integer sort, Integer type, Integer thisPage, Integer limit) {
         PageResult pageResult=new PageResult();
+        List<ItemVo> itemVos=new ArrayList<>();
 
         if (thisPage==null||thisPage==0){
             thisPage=1;
@@ -62,15 +66,32 @@ public class ItemServiceImpl implements ItemService {
 
         int total=itemMapper.getTotalByExit(sort,type);
         pageResult.setTotal(total);
-
         pageResult.setTotalPage(total%limit==0?(total/limit):(total/limit+1));
-        pageResult.setItems(itemMapper.getPageByExit(sort,type,(thisPage-1)*limit,limit));
+
+        List<Item> items=itemMapper.getPageByExit(sort,type,(thisPage-1)*limit,limit);
+        for(Item item : items){
+            ItemVo itemVo=new ItemVo();
+            List<IMember> iMembers=new ArrayList<>();
+
+            int itemId=item.getItemId();
+            iMembers=iMemberMapper.getByItemId(itemId);
+
+            itemVo.setItem(item);
+            itemVo.setItemMembers(iMembers);
+            itemVos.add(itemVo);
+        }
+        pageResult.setItemVos(itemVos);
+
         return pageResult;
     }
 
+    /*
+     * 归档项目的分页展示
+     * */
     @Override
     public PageResult getPageBySort(Integer sort,Integer thisPage,Integer limit) {
         PageResult pageResult=new PageResult();
+        List<ItemVo> itemVos=new ArrayList<>();
         if (thisPage==null||thisPage==0){
             thisPage=1;
         }
@@ -80,8 +101,26 @@ public class ItemServiceImpl implements ItemService {
         int total=itemMapper.getTotalBySort(sort);
         pageResult.setTotal(total);
         pageResult.setTotalPage(total%limit==0?(total/limit):(total/limit+1));
-        pageResult.setItems(itemMapper.getPageBySort(sort,(thisPage-1)*limit,limit));
+
+        List<Item> items=itemMapper.getPageBySort(sort,(thisPage-1)*limit,limit);
+        for(Item item : items){
+            ItemVo itemVo=new ItemVo();
+            List<IMember> iMembers=new ArrayList<>();
+
+            int itemId=item.getItemId();
+            iMembers=iMemberMapper.getByItemId(itemId);
+
+            itemVo.setItem(item);
+            itemVo.setItemMembers(iMembers);
+            itemVos.add(itemVo);
+        }
+        pageResult.setItemVos(itemVos);
         return pageResult;
+    }
+
+    @Override
+    public int updateBySort(Integer itemId,Integer sort) {
+        return itemMapper.updateBySort(itemId,sort);
     }
 
     @Override
@@ -96,7 +135,7 @@ public class ItemServiceImpl implements ItemService {
         Item item=new Item();
         List<IMember> iMembers=new ArrayList<>();
         item=itemVo.getItem();
-        iMembers=itemVo.getIMembers();
+        iMembers=itemVo.getItemMembers();
 
         //insert  item
         if(itemMapper.insert(item)<0){
@@ -118,6 +157,4 @@ public class ItemServiceImpl implements ItemService {
         base.setMessage("新增项目成功");
         return base;
     }
-
-
 }

@@ -22,4 +22,6 @@ public interface ItemService {
     PageResult getPageByExit(Integer sort, Integer type, Integer thisPage, Integer limit);
 
     PageResult getPageBySort(Integer sort,Integer thisPage,Integer limit);
+
+    int updateBySort(Integer itemId, Integer sort);
 }
